@@ -16,16 +16,7 @@ Petite application Tkinter pour créer des carrés sur un canvas, les relier par
   - clic droit sur une ligne : supprime la ligne et son oval
 - **Effacer tout** : touche `Echap`, avec confirmation.
 - **Fermeture** : une fenêtre de confirmation s'ouvre avant de quitter.
-- **Redimensionnement** : les carrés sont mis à l'échelle quand la fenêtre change de taille.
-## Lancer le projet
- 
-Prérequis : Python 3 avec Tkinter (inclus par défaut sur Windows et macOS ; sous Linux : `sudo apt install python3-tk`).
- 
-```bash
-git clone https://github.com/<ton-pseudo>/<ton-repo>.git
-cd <ton-repo>
-python main.py
-```
+- **Redimensionnement** : les carrés sont mis à l'échelle quand la fenêtre change de taille
  
 Aucune dépendance externe : uniquement `tkinter` et `random` de la bibliothèque standard.
  
@@ -64,5 +55,5 @@ Les interactions passent par `tag_bind` sur les tags `carre`, `ligne`, `oval` et
 - Les deux carrés reliés par une ligne sont choisis au hasard.
 ## Auteur
  
-Franck, L3 Informatique, Université de Toulon.
+Tonin PACHER, L3 Informatique, Université de Toulon.
  
